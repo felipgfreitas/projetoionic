@@ -1,0 +1,21 @@
+ion-header {
+  ion-toolbar {
+    --background: #e0c143;
+    --color: #FFFFFF;
+  }
+}
+
+ion-content {
+  --background: #E0E0E0;
+  ion-button {
+    --background: #ce5423;
+    --color: #FFFFFF;
+    margin-top: 20px;
+  }
+  .home-title {
+    font-size: 24px;
+    color: #a85f2b;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

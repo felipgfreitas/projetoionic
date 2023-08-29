@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Lista de Produtos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let produto of produtos">
+      {{ produto.nome }}
+      <ion-button slot="end" (click)="excluirProduto(produto.id)">Excluir</ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>

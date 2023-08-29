@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "nome": "Arroz",
+      "id": 1
+    },
+    {
+      "nome": "Feijão",
+      "id": 2
+    },
+    {
+      "nome": "Macarrão",
+      "id": 3
+    },
+    {
+      "nome": "Ervilha",
+      "id": 4
+    },
+    {
+      "nome": "Coca-Cola",
+      "id": 5
+    },
+    {
+      "nome": "Iogurte",
+      "id": 6
+    },
+    {
+      "nome": "Requeijão",
+      "id": 7
+    }
+  ]
+}
